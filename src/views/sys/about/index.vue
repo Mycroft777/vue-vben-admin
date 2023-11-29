@@ -95,4 +95,10 @@
     schema: infoSchema,
     column: 2,
   });
+  const init = () => {
+    console.log();
+  };
+  onMounted(() => {
+    init();
+  });
 </script>
